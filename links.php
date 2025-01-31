@@ -85,7 +85,7 @@ get_header();
             <?php endwhile; ?>
         </div>
     </div>
-
+    //显示链接
     <div class="link-list">
         <?php
         $categories = get_terms('link_category');
