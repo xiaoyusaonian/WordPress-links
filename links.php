@@ -53,7 +53,12 @@ get_header();
                             </ul>
                         </blockquote>
                     </details>
-
+                    <details><summary>😼开源页面:</summary>
+                    本页面已在github开源,虽然写的是💩
+                    
+                    <a href="https://github.com/xiaoyusaonian/WordPress-links">点击前往开源仓库</a>
+                    
+                    </details>
                     <h3>自助申请友链</h3>
                     <form method="post" action="<?= $_SERVER["REQUEST_URI"]; ?>">
                         <div class="form-group">
@@ -80,7 +85,7 @@ get_header();
             <?php endwhile; ?>
         </div>
     </div>
-   //显示已添加链接
+
     <div class="link-list">
         <?php
         $categories = get_terms('link_category');
